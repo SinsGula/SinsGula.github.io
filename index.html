@@ -30,9 +30,8 @@ body, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:url
 <i class="stop-button fa fa-pause" title="Плей\Пауза Видео"></i>
 <i onclick="refresh();" class="brefreshbutton fa fa-refresh" title="Посмотреть другое видео"></i>
 
-<div class="video-fallback"></div>
-<video autoplay loop id="video" onloadstart="this.volume=1" >
-<source src="videos/preload/1.mp4">
+<video id="video" onloadstart="this.volume=1" autoplay loop>
+<source src="videos/preload/2.mp4" "videos/preload/1.mp4">
 </video>   
 <canvas class="cover"></canvas>
 </div>

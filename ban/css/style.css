@@ -295,7 +295,7 @@ body {
   color: var(--color);
   position: absolute;
   bottom: 15px; 
-  right: 1580px; 
+  left: 15px; 
   display: inline-block;
   font-size: 4em;
   line-height: 1em;
